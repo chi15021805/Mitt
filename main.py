@@ -100,7 +100,7 @@ class VoiceLockBot(commands.Bot):
 
     def __init__(self):
         super().__init__(
-            command_prefix="!",
+            command_prefix="none",
             intents=intents,
         )
 
